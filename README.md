@@ -6,18 +6,101 @@ Table to Excel Exporter is a Chrome browser extension designed to streamline the
 
 The extension works by automatically detecting all HTML tables on any webpage you visit and adding a discrete download button to each one. With a single click, you can export the entire table as a properly formatted Excel (.xlsx) file, ready for analysis or further processing.
 
-## Key Features
+## ⚡ Key Features
 
-This extension provides several capabilities that make working with web-based data more efficient:
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Universal Compatibility**: Works on any website containing HTML tables, from Wikipedia and financial sites to internal dashboards and research databases
-- **One-Click Export**: Simple, intuitive interface requiring no technical knowledge
-- **Native Excel Format**: Generates genuine .xlsx files compatible with Microsoft Excel, Google Sheets, LibreOffice Calc, and other spreadsheet applications
-- **Dynamic Table Detection**: Automatically identifies tables that load asynchronously or are added to the page after initial load
-- **Minimal Visual Impact**: Adds only a small, unobtrusive button that doesn't interfere with the page's layout or functionality
-- **Intelligent File Naming**: Attempts to generate meaningful filenames based on table captions or surrounding headings rather than generic names
+### 🌐 Universal Compatibility
+Works seamlessly on **any website** containing HTML tables:
+- Wikipedia & educational resources
+- Financial & stock market sites
+- Internal company dashboards
+- Research databases & journals
+- Government data portals
+- E-commerce comparison tables
 
-This tool is particularly valuable for students conducting research, financial analysts tracking market data, business professionals compiling reports, and anyone who regularly works with data published on the web.
+</td>
+<td width="50%" valign="top">
+
+### 🚀 One-Click Export
+**Zero complexity.** Just click and download.
+- No technical knowledge required
+- Instant conversion to Excel
+- No registration or login needed
+- Works offline once installed
+- Lightning-fast processing
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💾 Native Excel Format
+Generates **genuine .xlsx files** compatible with:
+- ✅ Microsoft Excel (all versions)
+- ✅ Google Sheets
+- ✅ LibreOffice Calc
+- ✅ Apple Numbers
+- ✅ Any spreadsheet application
+
+</td>
+<td width="50%" valign="top">
+
+### 🔍 Smart Detection
+**Intelligent table recognition:**
+- Finds tables loaded via JavaScript
+- Detects dynamically added content
+- Monitors page changes in real-time
+- Handles infinite scroll tables
+- Works with AJAX-loaded data
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Minimal Visual Impact
+**Non-intrusive by design:**
+- Small, discrete button placement
+- Doesn't break page layouts
+- Preserves original table styling
+- No ads or popup windows
+- Clean, professional appearance
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 Intelligent Naming
+**Smart filename generation:**
+- Uses table captions automatically
+- Reads nearby heading elements
+- Avoids generic names like "table1.xlsx"
+- Sanitizes special characters
+- Prevents duplicate filenames
+
+</td>
+</tr>
+</table>
+
+---
+
+### 👥 Perfect For:
+
+<div align="center">
+
+| 🎓 Students | 💼 Business Professionals | 📊 Data Analysts | 🔬 Researchers | 💰 Financial Analysts |
+|------------|---------------------------|------------------|----------------|----------------------|
+| Research papers | Market reports | Data mining | Academic studies | Stock analysis |
+| Study materials | Competitor analysis | Statistical work | Survey data | Financial reports |
+| Citation data | Sales tracking | Trend analysis | Lab results | Portfolio tracking |
+
+</div>
+
+---
+
+**Stop wasting time copying and pasting.** Start working smarter with data that's already online.
 
 ## Installation Guide
 
