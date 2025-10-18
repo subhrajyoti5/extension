@@ -3,7 +3,7 @@
   "name": "Table to Excel Exporter",
   "version": "1.0",
   "description": "Adds a button to export any table on the page to .xlsx",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "downloads"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
