@@ -1,0 +1,67 @@
+TABLE TO EXCEL EXPORTER - INSTALLATION GUIDE
+==============================================
+
+IMPORTANT: You MUST download the SheetJS library before using this extension!
+
+STEP 1: DOWNLOAD SHEETJS LIBRARY
+---------------------------------
+1. Open your web browser
+2. Go to this URL:
+   https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js
+   
+3. The file will either download automatically or show the code
+4. If it shows code:
+   - Right-click anywhere on the page
+   - Select "Save As" or "Save Page As"
+   
+5. Save the file as: xlsx.full.min.js
+6. Save it in THIS folder (the extension folder)
+
+STEP 2: VERIFY FILES
+--------------------
+Make sure your extension folder contains these files:
+✓ manifest.json
+✓ content.js
+✓ xlsx.full.min.js  (the file you just downloaded)
+✓ README.md
+✓ INSTALLATION.txt (this file)
+
+STEP 3: LOAD EXTENSION IN CHROME
+---------------------------------
+1. Open Google Chrome
+2. Type in address bar: chrome://extensions/
+3. Look for "Developer mode" toggle in the top-right
+4. Turn ON "Developer mode"
+5. Click "Load unpacked" button (appears after enabling developer mode)
+6. Select THIS folder (the extension folder)
+7. Click "Select Folder"
+
+STEP 4: VERIFY INSTALLATION
+----------------------------
+You should see "Table to Excel Exporter" in your extensions list.
+
+STEP 5: TEST IT
+---------------
+1. Go to a webpage with tables, for example:
+   https://en.wikipedia.org/wiki/List_of_countries_by_population
+   
+2. Look for green "📥 XLSX" buttons at the top-right of each table
+3. Click a button to download that table as an Excel file
+4. Open the downloaded .xlsx file in Excel or Google Sheets
+
+TROUBLESHOOTING
+---------------
+If buttons don't appear:
+- Make sure xlsx.full.min.js is in the folder (it's about 800KB in size)
+- Reload the extension: go to chrome://extensions/, find the extension, click the refresh icon
+- Reload the webpage (F5 or Ctrl+R)
+- Check browser console for errors (F12, then click "Console" tab)
+
+If download doesn't work:
+- Check if Chrome is blocking downloads
+- Make sure you have permission to save files
+- Try on a different webpage
+
+NEED HELP?
+----------
+Check the README.md file for more detailed information and customization options.
